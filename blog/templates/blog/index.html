@@ -1,0 +1,10 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+    <h1>Негізгі бет</h1>
+
+    {% for p in posts %}
+        {{p.title}}
+    {% endfor %}
+
+{% endblock content %}
